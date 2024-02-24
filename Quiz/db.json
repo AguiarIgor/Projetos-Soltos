@@ -1,0 +1,41 @@
+{
+    "questions": {
+        "n1": "What's the best of all colors?",
+        "n2": "My favorite programming language is:",
+        "n3": "How older am I?",
+        "n4": "What's my favorite school subject?",
+        "n5": "Which is my favorite game of all times?"
+    },
+    "answers": {
+        "q1": {
+            "n1": "Purple",
+            "n2": "Blue",
+            "n3": "Red",
+            "n4": "Black"
+        },
+        "q2": {
+            "n1": "Java",
+            "n2": "Python",
+            "n3": "Javascript",
+            "n4": "C#"
+        },
+        "q3": {
+            "n1": "17",
+            "n2": "18",
+            "n3": "19",
+            "n4": "None of the Options"
+        },
+        "q4": {
+            "n1": "Chemistry",
+            "n2": "Language",
+            "n3": "English",
+            "n4": "Math"
+        },
+        "q5": {
+            "n1": "Unchivalry",
+            "n2": "Digimon World 3",
+            "n3": "Sea of Pirates",
+            "n4": "Pokemon UnTurn"
+        }
+    }
+}

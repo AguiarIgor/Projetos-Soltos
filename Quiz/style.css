@@ -1,0 +1,57 @@
+body{
+    background-color: #4C4347;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    padding: 20vh 15vw;
+}
+
+h1, #question, button, .finalMessage{
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#question{
+    font-size: 30px;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    margin-top: 6vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vh;
+}
+
+.finalSet{
+    display: block;
+}
+
+button{
+    height: 10vh;
+    width: 20vw;
+    font-size: 20px;
+    background-color: #0b637e;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover{    
+    box-shadow: 0 0 10px 0.4px white;
+}
+
+.finalMessage{
+    padding: 50px;
+    height: 30vh;
+    width: 45vw;
+    font-size: 40px;
+    text-align: center;
+    background-color: #0b637e;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0.4px rgba(0, 0, 0, 0.26);
+}
