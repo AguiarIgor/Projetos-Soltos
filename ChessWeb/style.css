@@ -1,0 +1,25 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+}
+
+table{
+    border: 7px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th{
+    border: 1px solid black;
+    height: 3vw;
+    width: 3vw;
+}
+
+img{
+    width: 3vw;
+    height: 3vw;
+    cursor: grab;
+}
