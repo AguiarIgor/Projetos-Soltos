@@ -28,12 +28,12 @@ async function createEncyclo(){
                 throw new Error("Invalid Evolution!");
         } 
         const digiCard = `
-            <div style="background: ${levelColor}">
+            <div style="background: ${levelColor};">
                 <div id="white_circle">
                     <img src="${element.img}"/>
                 </div>
                 <h2>${element.name}</h2>
-                <h4>${element.level}</h4>
+                <h3>${element.level}</h3>
             </div>
         `;
         div.innerHTML += digiCard;
